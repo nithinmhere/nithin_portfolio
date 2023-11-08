@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Presentation web page</title>
+    <link rel="stylesheet" href="ui-web.css">
+    <script src="https://kit.fontawesome.com/6571ec2ba3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1 class="mainHeading"><span class="span">UI</span> Designs</h1>
+            <h1 class="mainHeading"><span class="span">UX</span> Designs</h1>
+        </nav>
+    </div>
+ </body>
+</html>
+
+
+
+
+
+
+  <!--   <h2 class="subHeading-1">Modern dashboard UI</h2>
+        <p class="Description-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nesciunt repudiandae ab vitae voluptatibus, recusandae minima,
+             inventore praesentium illum odio quae modi necessitatibus a. Sed, doloremque. Qui laborum recusandae quasi.</p>
+        <div class="image">
+            <img src="./UI_Design_imgs/MacBook Pro 14_ - 1.png" alt=""  class="mainImage">  
+        </div>
+        
+    </div>
+    <div class="container">
+       
+        <h2 class="subHeading-2">Modern dashboard UI</h2>
+        <p class="Description-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nesciunt repudiandae ab vitae voluptatibus, recusandae minima,
+             inventore praesentium illum odio quae modi necessitatibus a. Sed, doloremque. Qui laborum recusandae quasi.</p>
+        <div class="image">
+            <img src="./UI_Design_imgs/MacBook Pro 14_ - 1.png" alt=""  class="mainImage">  
+        </div>
+        
+    </div>
+    <div class="container">
+         
+              <h2 class="subHeading-2">Modern dashboard UI</h2>
+              <p class="Description-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nesciunt repudiandae ab vitae voluptatibus, recusandae minima,
+                   inventore praesentium illum odio quae modi necessitatibus a. Sed, doloremque. Qui laborum recusandae quasi.</p>
+              <div class="image">
+                  <img src="./UI_Design_imgs/MacBook Pro 14_ - 1.png" alt=""  class="mainImage">  
+              </div>
+              
+          </div> --> 
+          
+
+  <!-------Java Script------>  
+  
+  <script>
+
+    var sidemenu = document.getElementById("mainHeading");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-125px";
+    }
+</script>
+
+  
+  <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+  

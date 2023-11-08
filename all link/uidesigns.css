@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #080808;
+    color: white;
+}
+.container{
+    margin: 2% 5%;
+}
+.row{
+    margin: 50px 0px;
+    width: 100%;
+}
+.row h1{
+  margin-left: 10% ;
+}
+.row h2{
+    margin-bottom: 5px;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.row p{
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.img-div{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.row img{
+    width: 80%;
+}
